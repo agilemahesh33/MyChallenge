@@ -1,0 +1,167 @@
+Database(Table) Raw Structure : 
+=============================================================================================================================================
+
+COMMON FIELDS FOR ALL TABLE 
+=============================================================================================================================================
+isDeleted
+isActive
+
+RecordAddedDate
+RecordAddedBy
+
+RecordUpdateDate
+RecordUpdatedBy
+
+
+
+=============================================================================================================================================
+
+For Office Use Only : T1
+-------------------------------------------------------------
+Formnumer
+DateofForm
+AdmissionNo
+
+TransferCertificateNo
+DateofTC
+ScholarNo
+
+AdmissionFeesReceiptNo
+DateofAdFeeRec
+LoginID
+
+HostelFormNo(optional)
+DateofHostelForm
+CBSERegNo
+
+=============================================================================================================================================
+
+Student Details : T2
+-------------------------------------------------------------
+Admission to Class
+Date of Admission
+Admission Type
+StudName
+Nationality
+MotherTongue
+DOB(dd/MM/YYYY)
+Place of Birth
+DOB in Words
+Gender: Male/Female/Other
+SingleGirlChild: Y/N
+Specially Abled: Y/N  Describe : 
+Religion
+Caste
+Sub Caste
+Category : SC/ST/OBC/EWS/General
+Blood Group: 
+AllergicTo
+Aadhar No
+Samagra ID (Family ID/Child ID)
+MobileNo(ForMSG):
+LastSchoolAttended
+Name of Board : CBSC/ICSE/IB/StateBord/Any other (Please Specify)
+=============================================================================================================================================
+
+Academic Details : T3
+-------------------------------------------------------------
+
+Subject 
+Maximum Marks
+MarksObtained
+Percentage of Marks
+Remark
+=============================================================================================================================================
+
+Father Details : T4
+-------------------------------------------------------------
+Name
+MobileNo
+Adhar No
+Qualification
+Occupation/Designation
+Email
+
+=============================================================================================================================================
+
+Mother Details :T4
+-------------------------------------------------------------
+Name
+MobileNo
+Adhar No
+Qualification
+Occupation/Designation
+Email
+
+=============================================================================================================================================
+Local Guardian Details T4
+-------------------------------------------------------------
+Name : 
+Mobile No (For emergency)
+Relation with student
+Aadhar Number
+Qualification
+Occupation/Designation
+Email
+Local Address
+
+=============================================================================================================================================
+
+Details of Siblings: T5
+-------------------------------------------------------------
+1. Name 		Brother/Sister
+DOB
+Is studying : Y/N if Yes : Name of institute Class
+
+2. Name 		Brother/Sister
+DOB
+Is studying : Y/N if Yes : Name of institute Class
+
+3. Name 		Brother/Sister
+DOB
+Is studying : Y/N if Yes : Name of institute Class
+
+=============================================================================================================================================
+
+Annual Family Income: T6
+-------------------------------------------------------------
+
+Rs
+
+Bank Account Details : 
+Bank Account Details with Relation 
+Bank Name And Branch : 
+Account number : 
+Bank IFSC(Code)
+Present Resident Address
+
+Permanent Resident Address
+
+
+Date Of Submission of form
+
+
+=============================================================================================================================================
+=============================================================================================================================================
+
+Leaving Certificate / Transfer Certificate
+-------------------------------------------------------------
+Srno:
+Admission Form No(G.R.No)
+Last Studied Class
+School/Board's Annual Examination Last Taken with Result :(Class - Passed/Failed)
+Whether Failed, if Once/twice in the same class (N/Y class attempt)
+Subject Studied : 1,2,3,4,5,6
+Is Qualified for promotion to the higher class (Y/N) To which class in words
+Month up to which pupil has paid school dues : month - YYYY
+Fees Concession availed (Y/N) : Nature of Concession
+Total no of working days:
+Total no of days present: 
+Whether NCC Cadet/ Boys Scout/ Girl Guide(Details May Be given)
+Games Played or Extra curricular Activities in which the pupil usually took part (mention achievement therein) 
+General Conduct
+Date of Application of Certificate
+Date of Issue of Certificate
+Reason for leaving school:
+UID No :
+Any other Remark:
